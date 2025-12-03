@@ -10,6 +10,7 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import Maintenance from './components/Maintenance';
 import Gallery from './components/Gallery';
+import Testimonials from './components/Testimonials';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
       <Services />
       <GardenStudios />
       <Gallery />
+      <Testimonials />
       <Maintenance />
       <TrustStats />
       <Partnerships />
