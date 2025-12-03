@@ -49,9 +49,9 @@ const Services: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Garden Studios Feature Card (Occupies first slot) */}
           <div className="relative group overflow-hidden rounded-2xl shadow-xl row-span-1 lg:row-span-2 min-h-[400px]">
-            <img 
-              src="https://picsum.photos/800/1200?random=11" 
-              alt="Garden Studio" 
+            <img
+              src="/images/studio-exterior.png"
+              alt="Garden Studio"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/40 to-transparent"></div>
